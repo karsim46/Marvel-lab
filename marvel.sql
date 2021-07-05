@@ -70,8 +70,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 -- INSERT INTO movies(title, year, show_time) VALUES('Avengers: Infinity War!!', 2021 ,'00;00');
 -- SELECT * FROM movies
 
--- UPDATE movies SET show_time = '21:45'
--- WHERE show_time = '21:55';
-DELETE FROM movies
-WHERE id IN (1, 3, 7);
+UPDATE movies SET show_time = '20:45' 
+WHERE show_time = '21:55';
+-- DELETE FROM movies
+-- WHERE id IN (1, 3, 7);
 SELECT * FROM movies
